@@ -12,10 +12,8 @@ libpng-devel libjpeg-devel
 
 cd /usr/local/CuptImages
 
-./build.sh
-
 echo export PATH=$PATH:/usr/local/CuptImages/bin >> /etc/profile
 
 source /etc/profile
 
-phantomjs --version
+phantomjs -v
